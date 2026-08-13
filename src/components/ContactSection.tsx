@@ -32,7 +32,7 @@ export default function ContactSection() {
 
       <FadeIn delay={0.2} y={20} className="w-full flex flex-col items-center gap-6">
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 flex-wrap justify-center">
-          
+          <a
             href={`mailto:${EMAIL}`}
             className="flex items-center gap-2 text-[#D7E2EA] font-medium tracking-wide hover:opacity-70 transition-opacity duration-200 text-sm sm:text-base break-all"
           >
@@ -40,6 +40,7 @@ export default function ContactSection() {
             {EMAIL}
           </a>
           
+          <a
             href={GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
