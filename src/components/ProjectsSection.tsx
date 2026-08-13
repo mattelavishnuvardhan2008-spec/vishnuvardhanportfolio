@@ -3,9 +3,6 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { Github } from 'lucide-react';
 import FadeIn from './FadeIn';
 import LiveProjectButton from './LiveProjectButton';
-import mythirdrepositoryImg from '../assets/projects/mythirdrepository.jpg';
-import mysecondrepository2026Img from '../assets/projects/mysecondrepository2026.jpg';
-import harshavardhanportfolioImg from '../assets/projects/harshavardhanportfolio.jpg';
 
 interface Project {
   number: string;
@@ -23,7 +20,7 @@ const PROJECTS: Project[] = [
     number: '01',
     category: 'Personal',
     name: 'Mythirdrepository',
-    image: mythirdrepositoryImg,
+    image: 'https://s0.wp.com/mshots/v1/https%3A%2F%2Fmythirdrepository.vercel.app?w=1200',
     liveUrl: 'https://mythirdrepository.vercel.app',
     githubUrl: `https://github.com/${GITHUB_USER}/Mythirdrepository`,
   },
@@ -31,7 +28,7 @@ const PROJECTS: Project[] = [
     number: '02',
     category: 'Personal',
     name: 'Mysecondrepository2026',
-    image: mysecondrepository2026Img,
+    image: 'https://s0.wp.com/mshots/v1/https%3A%2F%2Fmysecondrepository2026.vercel.app?w=1200',
     liveUrl: 'https://mysecondrepository2026.vercel.app',
     githubUrl: `https://github.com/${GITHUB_USER}/Mysecondrepository2026`,
   },
@@ -39,7 +36,7 @@ const PROJECTS: Project[] = [
     number: '03',
     category: 'Personal',
     name: 'Harshavardhanportfolio',
-    image: harshavardhanportfolioImg,
+    image: 'https://s0.wp.com/mshots/v1/https%3A%2F%2Fharshavardhanportfolio-eight.vercel.app?w=1200',
     liveUrl: 'https://harshavardhanportfolio-eight.vercel.app',
     githubUrl: `https://github.com/${GITHUB_USER}/Harshavardhanportfolio`,
   },
