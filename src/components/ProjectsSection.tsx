@@ -84,17 +84,17 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             </span>
           </div>
           <div className="flex flex-row items-center gap-3 sm:gap-4">
-            
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`View ${project.name} source on GitHub`}
-              className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] hover:bg-[#D7E2EA]/10 transition-colors duration-200 flex-shrink-0"
-            >
-              <Github size={18} />
-            </a>
-            <LiveProjectButton href={project.liveUrl} />
-          </div>
+              
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`View ${project.name} source on GitHub`}
+                className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] hover:bg-[#D7E2EA]/10 transition-colors duration-200 flex-shrink-0"
+              >
+                <Github size={18} />
+              </a>
+              <LiveProjectButton href={project.liveUrl} />
+            </div>
         </div>
 
         {/* Screenshot */}
