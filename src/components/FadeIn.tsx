@@ -22,7 +22,7 @@ export default function FadeIn({
   as = 'div',
   className,
 }: FadeInProps) {
-  const MotionTag = motion.create(as as ElementType) as ComponentType
+  const MotionTag = motion.create(as as ElementType) as ComponentType<
     Record<string, unknown>
   >;
 
