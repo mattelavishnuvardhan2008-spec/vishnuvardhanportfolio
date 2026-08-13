@@ -10,14 +10,14 @@ export default function HeroSection() {
       <FadeIn delay={0} y={-20} as="nav">
         <div className="flex flex-row flex-wrap justify-between items-center gap-x-4 gap-y-2 px-4 sm:px-6 md:px-10 pt-5 sm:pt-6 md:pt-8">
           {NAV_LINKS.map((link) => (
-              
-                key={link}
-                href={`#${link.toLowerCase()}`}
-                className="text-[#D7E2EA] font-medium uppercase tracking-wider text-xs sm:text-sm md:text-lg lg:text-[1.4rem] hover:opacity-70 transition-opacity duration-200"
-              >
-                {link}
-              </a>
-            ))}
+            
+              key={link}
+              href={`#${link.toLowerCase()}`}
+              className="text-[#D7E2EA] font-medium uppercase tracking-wider text-xs sm:text-sm md:text-lg lg:text-[1.4rem] hover:opacity-70 transition-opacity duration-200"
+            >
+              {link}
+            </a>
+          ))}
         </div>
       </FadeIn>
 
