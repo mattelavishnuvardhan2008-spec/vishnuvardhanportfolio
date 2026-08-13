@@ -84,7 +84,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             </span>
           </div>
           <div className="flex flex-row items-center gap-3 sm:gap-4">
-            
+            <a
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
